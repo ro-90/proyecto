@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="general.css">
+    <script src="https://kit.fontawesome.com/ab9f47d004.js" crossorigin="anonymous"></script>
+    
+
 </head>
 
 <body>
     <header>
-        <a href="register.html"> <img src="../imagenes tp2/logo-mercado-liebre%20(5).svg"></a>
-        <img src="../imagenes tp2/img-home-banner.jpg">
+        <a href="register.html"> <img class="logo" src="../proyecto/imagenes tp2/logo-mercado-liebre.svg"></a>
+        <div class="buscador"><input class="busqueda" type="search" placeholder="Buscar productos,marcas"></div>
+
+      <div class="banner">  <img src="../proyecto/imagenes tp2/img-home-banner (1).jpg"></div>
 
 
         <p>compra en cuotas sin tarjeta de credito</p>
@@ -26,81 +32,93 @@
                 <li><a href="login.html">ingresa</a></li>
                 <li><a href="·">mis compras</a></li>
             </ul>
-
+            </nav>
+                </header>
+             <main>
 
             <form action="" method="get">
                 <div>
                     <label> nombre</label>
-                    <input type="text" name="nombre " placeholder="nombre completo">
+                    <input class="caja1" type="text" name="nombre " placeholder="nombre completo">
                 </div>
                 <div> <label> usuario</label>
-                    <input type="text" name="usuario" placeholder="usuario" </div>
+                    <input class="caja1" type="text" name="usuario" placeholder="usuario" </div>
                     <div> <label> email</label>
-                        <input type="email" name="email" placeholder="email">
+                        <input class="caja1" type="email" name="email" placeholder="email">
                     </div>
                     <div><label> fecha de nacimiento</label>
-                        <input type="number" name="fecha de nacimiento" placeholder="fecha e nacimiento" </div>
+                        <input class="caja1" type="number" name="fecha de nacimiento" placeholder="fecha e nacimiento" </div>
 
 
 
                         <div><label> direccion</label>
-                            <input type="text" name="direccion" placeholder="direccion" </div>
+                            <input class="caja1" type="text" name="direccion" placeholder="direccion" </div>
 
                             <h4>perfil de usuario</h4>
 
-                            <div> <input type="radio" name="perfil de usuario" value="vender">vender</div>
-                            <div><input type="radio" name="perfil de usuario" value="comprar">comprar</div>
+                            <div> <input class="caja1" type="radio" name="perfil de usuario" value="vender">vender</div>
+                            <div><input class="caja1" type="radio" name="perfil de usuario" value="comprar">comprar</div>
 
-                            <div>
+                            <div class="interes">
                                 <h4>categorias de interes</h4>
-                                <input type="checkbox" name="categorias de interes" value="Electro">Electro
-                                <input type="checkbox" name="categorias de interes" value="moda">moda
-                                <input type="checkbox" name="categorias de interes" value="Hogar">Hogar
-                                <input type="checkbox" name="categorias de interes" value="Jugueteria">Jugueteria
-                                <input type="checkbox" name="categorias de interes" value="vida sana">vida sana
+                                <input class="caja1" type="checkbox" name="categorias de interes" value="Electro">Electro
+                                <input class="caja1" type="checkbox" name="categorias de interes" value="moda">moda
+                                <input class="caja1" type="checkbox" name="categorias de interes" value="Hogar">Hogar
+                                <input class="caja1 "type="checkbox" name="categorias de interes" value="Jugueteria">Jugueteria
+                                <input class="caja1" type="checkbox" name="categorias de interes" value="vida sana">vida sana
                             </div>
 
 
                             <div> <label for="">foto de usuario</label>
-                                <input type="image" name="foto de usuario">
+                                <input class="caja1 " type="image" name="foto de usuario">
                             </div>
 
                             <div><label for=""> contraseña</label>
-                                <input type="password" name="contraseña">
+                                <input class="caja1" type="password" name="contraseña">
                             </div>
                             <div><label for="">confirmar su contraseña</label>
-                                <input type="password" name="confirmar su contraseña">
+                                <input class="caja1" type="password" name="confirmar su contraseña">
                             </div>
 
-                            <div> <button type="submit"><a href=.index.htmll>Enviar</button></div>
+                            <div> <button class="boton" type="submit"><a href=.index.htmll>Enviar</button></div>
 
-                            <div> <button type="reset">Borrar</button></div>
+                            <div> <button class="boton"  type="reset">Borrar</button></div>
 
             </form>
-    </header>
-    <footer>
-        <section>
-            <h3>paga con tarjeta o en efectivo</h3>
-            </h>
-            <p>con mercado libre cash,tenes cuotas sin interescon tarjeta o efectivo en puntos de pago.¡y siempre es
-                seguro!</p>
+        </main>
+    
+        <footer>
+            <section>
+                
+                    
+                    <div class="texto">
+                       <div class="icon"> <i class="fa-solid fa-credit-card"></i></div>
+                        <h3 class="gris">paga con tarjeta o en efectivo</h3>
+
+                        <p class="gris">con mercado libre cash,tenes cuotas sin interescon tarjeta o efectivo en puntos de pago.¡y
+                            siempre es seguro!</p>
+                        </div>
         </section>
         <section>
-            <h3>Envio gratis desde los $2.500</h3>
-            <p>solo por estar registrad@ en mercado liebre tenes envios gratis en miles de productos.Es un buen
-                beneficio de
-                mercado puntos.</p>
-            <section>
-                <h3>Seguridad,de principio a fin</h3>
-                <p>¿no te gusta?¡Dvolvelo!en mercado liebre,no hay nada que no puedas hacer,por que estas siempre
-                    protegido</p>
-            </section>
+            <div class="texto">
+               <div class="icon"> <i class="fa-solid fa-gift"></i></div>
+                <h3 class="gris">Envio gratis desde los $2.500</h3>
+                <p class="gris">solo por estar registrad@ en mercado liebre tenes envios gratis en miles de productos.Es un buen
+                    beneficio de
+                    mercado puntos.</p>
+            </div>
+        </section>
+        
 
-            <section>
-                <h3>Seguridad,de principio a fin</h3>
-                <p>¿no te gusta?¡Dvolvelo!en mercado liebre,no hay nada que no puedas hacer,por que estas siempre
+        <section>
+            <div class="texto">
+               <div class="icon"> <i class="fa-solid fa-user-shield"></i></div>
+                <h3 class="gris">Seguridad,de principio a fin</h3>
+                <p class="gris">¿no te gusta?¡Dvolvelo!en mercado liebre,no hay nada que no puedas hacer,por que estas siempre
                     protegido</p>
-            </section>
+            </div>
+            
+        </section>
     </footer>
 
 </body>
