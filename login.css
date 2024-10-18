@@ -1,8 +1,23 @@
 header{
     background-color:
     #EAC926 ;
+    font-family:"roboto",sans-serif;
+   
     
 }
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 24px;
+    
+  }
+.lupa{ background-color: antiquewhite;
+    height:30px;
+    width:30px;
+    margin-left:100px;
+    margin-top: 0px;}
+
 main{background-color: #ebebeb;
     
     
@@ -43,8 +58,9 @@ main{background-color: #ebebeb;
 
 
 footer{
+    margin-top: 10px;
     height: auto;
     width: auto;
     text-align: center;
+    font-family:"roboto",sans-serif;
 }
-

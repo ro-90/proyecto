@@ -4,3 +4,8 @@
 .banner{
     display: none;
  }
+.lupa{ background-color: antiquewhite;
+height:30px;
+width:30px;
+margin-left:100px;
+margin-top: 0px;}
